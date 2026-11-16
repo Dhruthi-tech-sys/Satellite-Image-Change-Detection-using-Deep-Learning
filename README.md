@@ -82,3 +82,19 @@ The following image compares the two satellite images,
 the actual change mask, and the model's prediction.
 
 ![Change Detection Results](results/change_detection_results.png)
+
+## 10. Model Evaluation Results
+
+The trained Siamese U-Net model was evaluated on the LEVIR-CD test dataset.
+
+| Evaluation Metric | Test Score |
+|---|---:|
+| Precision | 53.60% |
+| Recall | 81.45% |
+| F1-score | 64.65% |
+
+### Conclusion
+
+The model successfully identifies changed regions between satellite images. The weighted Binary Cross Entropy loss function helps address class imbalance and improves the detection of changed pixels.
+
+The results demonstrate the application of deep learning techniques for satellite image change detection.
