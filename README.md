@@ -75,3 +75,10 @@ a Siamese U-Net deep learning model.
 
 The weighted loss function helps address class imbalance and
 improves the detection of changed pixels.
+
+## 9. Prediction Results
+
+The following image compares the two satellite images,
+the actual change mask, and the model's prediction.
+
+![Change Detection Results](results/change_detection_results.png)
